@@ -1,0 +1,34 @@
+*{
+	font-family: "Hacen", Tunisia Lt_0 !important;
+  }
+  @font-face {
+	  font-family: 'Hacen';
+	  src:url('../fonts/Hacen Tunisia_0.ttf');
+  }
+
+body.login {
+	background-image: url('../img/1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.uk-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #fff !important;
+	opacity: 1; /* Firefox */
+  }
+
+  .uk-input{
+	color: white !important;
+	background-color: rgba(0,0,0,0.5) !important;
+	letter-spacing: 1px;
+  }
+  .uk-form-icon{
+	  color: white !important;
+  }
+  .login{
+	color: white;
+    background-color: #e6717a;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
